@@ -271,6 +271,9 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
+  body {
+    background-position: center;
+  }
 }
 
 @media (max-width: 350px) {
