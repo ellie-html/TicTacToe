@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+body {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://img4.goodfon.com/wallpaper/nbig/4/b5/firewatch-campo-santo-kholmy-les-peizazh-igra-gory-pozharnyi.jpg);
+  height: 90vh;
+}
+
+.grid {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  vertical-align: center;
+  width: 400px;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
+}
+
+.space {
+  background-color: white;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.space:hover {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+.x, .o {
+  font-size: 70px;
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.x {
+  color: hotpink;
+}
+
+.o {
+  color: #33DBFF;
+}
+
+.header {
+  font-family: 'Righteous', cursive;
+  font-size: 5rem;
+  color: WHITE;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  background-size: cover;
+}
+
+.reset {
+  font-size: 2rem;
+  font-family: 'Righteous', cursive;
+  color: white;
+  background-color: #8d4aeb;
+  border: 5px solid white;
+  padding: 5px;
+  -webkit-transition: border, color, .5s;
+  transition: border, color, .5s;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.reset:hover {
+  cursor: pointer;
+  color: #8d4aeb;
+  border: 5px solid #8d4aeb;
+  -webkit-transition: border, color, .5s;
+  transition: border, color, .5s;
+  background-color: white;
+}
+
+.reset:focus {
+  outline: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.p1, .p2 {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.p1 {
+  color: hotpink;
+  margin-left: 20px;
+}
+
+.p2 {
+  color: #33DBFF;
+  margin-right: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.themebox {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 250px;
+  display: none;
+}
+
+h2 {
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+  padding-left: 30px;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 360px;
+}
+
+.bar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 32px;
+  left: 0;
+  padding: 0 21px;
+  position: absolute;
+  width: 100%;
+  font-family: 'Righteous', cursive;
+  color: #8d4aeb;
+}
+
+.bar-purple {
+  background: #8d4aeb;
+  color: white;
+  -webkit-clip-path: polygon(360px 0, 360px 32px, 43px 32px, 39.77544px 31.67494px, 36.77208px 30.74264px, 34.05425px 29.26745px, 31.68629px 27.31371px, 29.73255px 24.94575px, 28.25736px 22.22792px, 27.32506px 19.22456px, 27px 16px, 27.32506px 12.77544px, 28.25736px 9.77208px, 29.73255px 7.05425px, 31.68629px 4.68629px, 34.05425px 2.73255px, 36.77208px 1.25736px, 39.77544px 0.32506px, 43px 0);
+          clip-path: polygon(360px 0, 360px 32px, 43px 32px, 39.77544px 31.67494px, 36.77208px 30.74264px, 34.05425px 29.26745px, 31.68629px 27.31371px, 29.73255px 24.94575px, 28.25736px 22.22792px, 27.32506px 19.22456px, 27px 16px, 27.32506px 12.77544px, 28.25736px 9.77208px, 29.73255px 7.05425px, 31.68629px 4.68629px, 34.05425px 2.73255px, 36.77208px 1.25736px, 39.77544px 0.32506px, 43px 0);
+  -webkit-transition: -webkit-clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.option {
+  cursor: pointer;
+  line-height: 142px;
+  text-align: center;
+  width: 33.33%;
+}
+
+.bar-outer {
+  -webkit-clip-path: polygon(0 0, 120px 0, 120px 32px, 0 32px);
+          clip-path: polygon(0 0, 120px 0, 120px 32px, 0 32px);
+  -webkit-clip-path: polygon(0 0, 0 32px, 104px 32px, 107.22456px 31.67494px, 110.22792px 30.74264px, 112.94575px 29.26745px, 115.31371px 27.31371px, 117.26745px 24.94575px, 118.74264px 22.22792px, 119.67494px 19.22456px, 120px 16px, 119.67494px 12.77544px, 118.74264px 9.77208px, 117.26745px 7.05425px, 115.31371px 4.68629px, 112.94575px 2.73255px, 110.22792px 1.25736px, 107.22456px 0.32506px, 104px 0);
+          clip-path: polygon(0 0, 0 32px, 104px 32px, 107.22456px 31.67494px, 110.22792px 30.74264px, 112.94575px 29.26745px, 115.31371px 27.31371px, 117.26745px 24.94575px, 118.74264px 22.22792px, 119.67494px 19.22456px, 120px 16px, 119.67494px 12.77544px, 118.74264px 9.77208px, 117.26745px 7.05425px, 115.31371px 4.68629px, 112.94575px 2.73255px, 110.22792px 1.25736px, 107.22456px 0.32506px, 104px 0);
+  height: 32px;
+  pointer-events: none;
+  -webkit-transition: -webkit-clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-clip-path 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+
+.bar-outer.pos2 .bar-purple {
+  -webkit-clip-path: polygon(360px 0, 360px 32px, 149px 32px, 145.77544px 31.67494px, 142.77208px 30.74264px, 140.05425px 29.26745px, 137.68629px 27.31371px, 135.73255px 24.94575px, 134.25736px 22.22792px, 133.32506px 19.22456px, 133px 16px, 133.32506px 12.77544px, 134.25736px 9.77208px, 135.73255px 7.05425px, 137.68629px 4.68629px, 140.05425px 2.73255px, 142.77208px 1.25736px, 145.77544px 0.32506px, 149px 0);
+          clip-path: polygon(360px 0, 360px 32px, 149px 32px, 145.77544px 31.67494px, 142.77208px 30.74264px, 140.05425px 29.26745px, 137.68629px 27.31371px, 135.73255px 24.94575px, 134.25736px 22.22792px, 133.32506px 19.22456px, 133px 16px, 133.32506px 12.77544px, 134.25736px 9.77208px, 135.73255px 7.05425px, 137.68629px 4.68629px, 140.05425px 2.73255px, 142.77208px 1.25736px, 145.77544px 0.32506px, 149px 0);
+}
+
+.bar-outer.pos2 {
+  -webkit-clip-path: polygon(0 0, 0 32px, 210px 32px, 213.22456px 31.67494px, 216.22792px 30.74264px, 218.94575px 29.26745px, 221.31371px 27.31371px, 223.26745px 24.94575px, 224.74264px 22.22792px, 225.67494px 19.22456px, 226px 16px, 225.67494px 12.77544px, 224.74264px 9.77208px, 223.26745px 7.05425px, 221.31371px 4.68629px, 218.94575px 2.73255px, 216.22792px 1.25736px, 213.22456px 0.32506px, 210px 0);
+          clip-path: polygon(0 0, 0 32px, 210px 32px, 213.22456px 31.67494px, 216.22792px 30.74264px, 218.94575px 29.26745px, 221.31371px 27.31371px, 223.26745px 24.94575px, 224.74264px 22.22792px, 225.67494px 19.22456px, 226px 16px, 225.67494px 12.77544px, 224.74264px 9.77208px, 223.26745px 7.05425px, 221.31371px 4.68629px, 218.94575px 2.73255px, 216.22792px 1.25736px, 213.22456px 0.32506px, 210px 0);
+}
+
+.bar-outer.pos3 .bar-purple {
+  -webkit-clip-path: polygon(360px 0, 360px 32px, 256px 32px, 252.77544px 31.67494px, 249.77208px 30.74264px, 247.05425px 29.26745px, 244.68629px 27.31371px, 242.73255px 24.94575px, 241.25736px 22.22792px, 240.32506px 19.22456px, 240px 16px, 240.32506px 12.77544px, 241.25736px 9.77208px, 242.73255px 7.05425px, 244.68629px 4.68629px, 247.05425px 2.73255px, 249.77208px 1.25736px, 252.77544px 0.32506px, 256px 0);
+          clip-path: polygon(360px 0, 360px 32px, 256px 32px, 252.77544px 31.67494px, 249.77208px 30.74264px, 247.05425px 29.26745px, 244.68629px 27.31371px, 242.73255px 24.94575px, 241.25736px 22.22792px, 240.32506px 19.22456px, 240px 16px, 240.32506px 12.77544px, 241.25736px 9.77208px, 242.73255px 7.05425px, 244.68629px 4.68629px, 247.05425px 2.73255px, 249.77208px 1.25736px, 252.77544px 0.32506px, 256px 0);
+}
+
+.bar-outer.pos3 {
+  -webkit-clip-path: polygon(0 0, 333px 0, 333px 32px, 0 32px);
+          clip-path: polygon(0 0, 333px 0, 333px 32px, 0 32px);
+  -webkit-clip-path: polygon(0 0, 0 32px, 317px 32px, 320.22456px 31.67494px, 323.22792px 30.74264px, 325.94575px 29.26745px, 328.31371px 27.31371px, 330.26745px 24.94575px, 331.74264px 22.22792px, 332.67494px 19.22456px, 333px 16px, 332.67494px 12.77544px, 331.74264px 9.77208px, 330.26745px 7.05425px, 328.31371px 4.68629px, 325.94575px 2.73255px, 323.22792px 1.25736px, 320.22456px 0.32506px, 317px 0);
+          clip-path: polygon(0 0, 0 32px, 317px 32px, 320.22456px 31.67494px, 323.22792px 30.74264px, 325.94575px 29.26745px, 328.31371px 27.31371px, 330.26745px 24.94575px, 331.74264px 22.22792px, 332.67494px 19.22456px, 333px 16px, 332.67494px 12.77544px, 331.74264px 9.77208px, 330.26745px 7.05425px, 328.31371px 4.68629px, 325.94575px 2.73255px, 323.22792px 1.25736px, 320.22456px 0.32506px, 317px 0);
+}
+
+.bar-outer.left .bar-purple {
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+}
+
+.bar-outer.left {
+  -webkit-transition-delay: 80ms;
+          transition-delay: 80ms;
+}
+
+.bar-outer.right .bar-purple {
+  -webkit-transition-delay: 80ms;
+          transition-delay: 80ms;
+}
+
+.bar-outer.right {
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+}
+
+@media (max-width: 700px) {
+  .p1, .p2 {
+    font-size: 1rem;
+  }
+  .header {
+    font-size: 3rem;
+  }
+  .grid {
+    width: 300px;
+    height: 300px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1500px) {
+  body {
+    height: 110vh;
+  }
+}
+/*# sourceMappingURL=tictac.css.map */
