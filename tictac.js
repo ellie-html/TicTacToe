@@ -248,7 +248,8 @@ if(board[0][0] === "x" && board[0][1] === "x" && board[0][2] === "x") {
 // middle row 
 else if (board[1][0] === "x" && board[1][1] === "x" && board[1][2] === "x") {
   $('.header').text('Player One Wins!');
-  $('.header').css('color', 'tomato');
+  $('.header').css('color', 'hotpink');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p1').text ('Player 1:' + p1counter);
   p1Counter += 1;
   player1.win = true;
@@ -256,7 +257,8 @@ else if (board[1][0] === "x" && board[1][1] === "x" && board[1][2] === "x") {
 // bottom row
 else if (board[2][0] === "x" && board[2][1] === "x" && board[2][2] === "x") {
   $('.header').text('Player One Wins!'); 
-  $('.header').css('color', 'tomato');
+  $('.header').css('color', 'hotpink');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p1').text ('Player 1: ' + p1Counter);
   p1Counter += 1;
   player1.win = true;
@@ -264,7 +266,8 @@ else if (board[2][0] === "x" && board[2][1] === "x" && board[2][2] === "x") {
 // first column
 else if (board[0][0] === 'x' && board[1][0] === 'x' && board[2][0] === 'x') {
   $('.header').text('Player One Wins!'); 
-  $('.header').css('color', 'tomato');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
+  $('.header').css('color', 'hotpink');
   $('.p1').text ('Player 1: ' + p1Counter);
   p1Counter += 1;
   player1.win = true;
@@ -272,7 +275,8 @@ else if (board[0][0] === 'x' && board[1][0] === 'x' && board[2][0] === 'x') {
 // second column
 else if (board[0][1] === 'x' && board[1][1] === 'x' && board[2][1] === 'x') {
   $('.header').text('Player One Wins!'); 
-  $('.header').css('color', 'tomato');
+  $('.header').css('color', 'hotpink');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p1').text ('Player 1: ' + p1Counter);
   p1Counter += 1;
   player1.win = true;
@@ -280,7 +284,8 @@ else if (board[0][1] === 'x' && board[1][1] === 'x' && board[2][1] === 'x') {
 // third column
 else if (board[0][2] === 'x' && board[1][2] === 'x' && board[2][2] === 'x') {
   $('.header').text('Player One Wins!'); 
-  $('.header').css('color', 'tomato');
+  $('.header').css('color', 'hotpink');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p1').text ('Player 1: ' + p1Counter);
   p1Counter += 1;
   player1.win = true;
@@ -288,7 +293,8 @@ else if (board[0][2] === 'x' && board[1][2] === 'x' && board[2][2] === 'x') {
 // diaganol right
 else if (board[0][0] === 'x' && board[1][1] === 'x' && board[2][2] === 'x') {
   $('.header').text('Player One Wins!');  
-  $('.header').css('color', 'tomato');
+  $('.header').css('color', 'hotpink');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p1').text ('Player 1: ' + p1Counter);
   p1Counter += 1;
   player1.win = true;
@@ -296,7 +302,8 @@ else if (board[0][0] === 'x' && board[1][1] === 'x' && board[2][2] === 'x') {
 // diaganol left
 else if (board[0][2] === 'x' && board[1][1] === 'x' && board[2][0] === 'x') {
   $('.header').text('Player One Wins!'); 
-  $('.header').css('color', 'tomato');
+  $('.header').css('color', 'hotpink');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p1').text ('Player 1: ' + p1Counter);
   p1Counter += 1;
   player1.win = true;
@@ -308,6 +315,7 @@ else if (board[0][2] === 'x' && board[1][1] === 'x' && board[2][0] === 'x') {
 if(board[0][0] === "o" && board[0][1] === "o" && board[0][2] === "o") {
   $('.header').text('Player Two Wins!');
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -316,6 +324,7 @@ if(board[0][0] === "o" && board[0][1] === "o" && board[0][2] === "o") {
 else if (board[1][0] === "o" && board[1][1] === "o" && board[1][2] === "o") {
   $('.header').text('Player Two Wins!');  
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -324,6 +333,7 @@ else if (board[1][0] === "o" && board[1][1] === "o" && board[1][2] === "o") {
 else if (board[2][0] === "o" && board[2][1] === "o" && board[2][2] === "o") {
   $('.header').text('Player Two Wins!');   
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -332,6 +342,7 @@ else if (board[2][0] === "o" && board[2][1] === "o" && board[2][2] === "o") {
 else if (board[0][0] === 'o' && board[1][0] === 'o' && board[2][0] === 'o') {
   $('.header').text('Player Two Wins!'); 
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -340,6 +351,7 @@ else if (board[0][0] === 'o' && board[1][0] === 'o' && board[2][0] === 'o') {
 else if (board[0][1] === 'o' && board[1][1] === 'o' && board[2][1] === 'o') {
   $('.header').text('Player Two Wins!');  
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -348,6 +360,7 @@ else if (board[0][1] === 'o' && board[1][1] === 'o' && board[2][1] === 'o') {
 else if (board[0][2] === 'o' && board[1][2] === 'o' && board[2][2] === 'o') {
   $('.header').text('Player Two Wins!');  
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -356,6 +369,7 @@ else if (board[0][2] === 'o' && board[1][2] === 'o' && board[2][2] === 'o') {
 else if (board[0][0] === 'o' && board[1][1] === 'o' && board[2][2] === 'o') {
   $('.header').text('Player Two Wins!');  
   $('.header').css('color', '#33DBFF');
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -364,7 +378,7 @@ else if (board[0][0] === 'o' && board[1][1] === 'o' && board[2][2] === 'o') {
 else if (board[0][2] === 'o' && board[1][1] === 'o' && board[2][0] === 'o') {
   $('.header').text('Player Two Wins!');    
   $('.header').css('color', '#33DBFF');
-  
+  $('.header').css('background', 'url(https://media2.giphy.com/media/KbADTFrN2nfF29W3AR/giphy.gif?cid=ecf05e47f1940a2447f3daee93fe097c2fd8f9ad8f6097a1&rid=giphy.gif)');
   $('.p2').text ('Player 2: ' + p2Counter);
   p2Counter += 1;
   player2.win = true;
@@ -380,6 +394,7 @@ player1.win = false;
 player2.win = false;
 $('.x').remove();
 $('.o').remove();
+
 $('.header').text('Tic Tac Toe');
 board = [[1,2,3],[4,5,6],[7,8,9]];
 space1.played = false;
